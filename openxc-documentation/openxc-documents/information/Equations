@@ -1,0 +1,24 @@
+Equations that will be used
+
+Instantaneous MPG
+
+**Note, this is dependent upon on the sensitivity (precision) of the odometer and fuel reading
+
+(Current odometer reading-last refresh odometer reading)/(Current fuel consumed s.restart-last refresh fuel consumed)
+
+
+Total trip MPG
+
+(Current odometer reading-initial odometer reading during ignition)/(Current fuel consumed since restart-0)
+
+
+Types of plots
+
+	Instantaneous MPG vs. time a plot of 
+	Velocity vs. time
+	Accelerator pedal position vs. time
+
+All of the plots will be compared to each another. We will need to test the signals to see the loss.
+
+
+
